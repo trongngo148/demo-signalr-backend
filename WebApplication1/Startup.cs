@@ -46,6 +46,7 @@ namespace WebApplication1
                     options.UseSqlServer(Configuration.GetConnectionString("SignalRDemoContext")));
 
             services.AddSignalR();
+           
 
         }
 
